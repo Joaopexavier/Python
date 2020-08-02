@@ -18,3 +18,10 @@ def greet(language):
     'swedish': 'Valkommen',
     'welsh': 'Croeso'
     }.get(language, "Welcome")
+
+
+if __name__ == "__main__":
+  language = input()
+  answer = greet(language)
+  print(answer)
+

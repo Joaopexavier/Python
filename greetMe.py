@@ -4,4 +4,8 @@ def greet(name):
     h = z.lower()
     u = y.upper()
     return("Hello {}!".format(u+h))
-    pass
+
+if __name__ == "__main__":
+  name = input()
+  answer = greet(name)
+  print(answer)

@@ -1,2 +1,2 @@
 # Python
-códigos que eu fiz em Python
+exercises that I did do in Python
